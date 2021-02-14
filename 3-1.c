@@ -13,7 +13,7 @@ int main(){
     else if(pid == 0){// child process
         execlp("/bin/ls", "ls, NULL):
     }
-    else{// parent process
+    else { // parent process
         wait(NULL);
         printf("Child Complete");
     }
